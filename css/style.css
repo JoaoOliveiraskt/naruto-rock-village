@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: rgb(236, 229, 199);
+}
+
+header {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: end;
+    background: linear-gradient(rgb(31, 43, 51), rgb(24, 23, 23)) ;
+    top: 0;
+    gap: 2rem;
+}
+
+.logo-naruto {
+    height: 3rem;
+}
+
+.title-header {
+    font-family: 'Ninja Naruto', sans-serif;
+    font-size: 1.6rem;
+    color: #ffffffc9;
+    margin-right:  10rem;
+}  
+
+.title-main {
+    margin-top: 5%;
+    text-align: center;
+}
+
+h1 {
+    color: #928c75;
+    font-size: 5rem;
+    font-weight: bolder;
+    font-family: 'Rock Salt', sans-serif;
+    text-shadow: 2px 4px #041114;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#main{
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+.card {
+    max-width: 600px;
+    max-height: 230px;
+    border: 1px solid #292824;
+    border-radius: 4px;
+    margin: 15px;
+    display: flex;
+    background-color: #fff;
+    flex-basis: 18%;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    border: 1px solid #4496af ;
+    box-shadow: 0 8px 20px 10px rgba(0,0,0,0.3);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;    
+}
+
+.imageCharacter {
+    width: 35%;
+    height: 40%;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.media-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(153, 146, 126);
+}
+
+h3 {
+ font-size: 18px;
+ color: black;
+}
+
+
+p {
+    font-size: 12px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
